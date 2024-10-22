@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 const ProductCard = ({ params }: { params: { productId: string } }) => {
     return (
