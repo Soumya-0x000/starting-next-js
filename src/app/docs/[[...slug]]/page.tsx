@@ -1,9 +1,7 @@
 'use client';
 
 const Docs = ({ params }: { params: { slug: string[] } }) => {
-    console.log(params);
-
-    if (params.slug?.length === 0) {
+    if (params.slug?.length !== 0 || params.slug?.length === 0) {
         return <div>Docs home page</div>;
     }
 
