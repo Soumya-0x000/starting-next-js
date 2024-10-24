@@ -26,9 +26,17 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+                className={`${geistSans.variable} ${geistMono.variable} antialiasedz space-y-16 h-screen w-screen bg-slate-950 flex flex-col justify-between items-center`}
             >
-                {children}
+                <header className=" bg-slate-900 w-full py-24 pl-12 text-xl text-slate-300">
+                    Header
+                </header>
+
+                <div className=" ring w-fit h-fit mx-auto">{children}</div>
+
+                <footer className=" bg-slate-900 w-full py-24 pl-12 text-xl text-slate-300">
+                    Footer
+                </footer>
             </body>
         </html>
     );
