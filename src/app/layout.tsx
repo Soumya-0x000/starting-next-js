@@ -49,6 +49,10 @@ export default function RootLayout({
             href: '/profile',
         },
         {
+            name: 'Blog',
+            href: '/blog',
+        },
+        {
             name: 'Login',
             href: '/login',
         },
