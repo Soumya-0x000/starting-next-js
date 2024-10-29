@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const Review = ({ params }: { params: { productId: string } }) => {
-    const navButtons = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    const navButtons = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1500, 2000, 3000, 4000, 5000];
 
     return (
         <div>
